@@ -85,3 +85,7 @@ Social Media is de eerste kaart én de uitgelichte quiz. Maximaal 4 kaarten per 
 
 ## Anti-Success-update
 /quizzes/anti-success/: 15 unieke scènes, 45 originele A/B/C-antwoorden en drie hoofdprofielen uit de EPUB. Dubbele spreadpagina’s eenmaal verwerkt. Gemengde reflectie en epiloog uitklapbaar bij het resultaat. Eigen voortgangssleutel, hervatten, antwoorden aanpassen, gelijke stand oplossen en resultaat delen. Kaart 06 in blauw; Social Media blijft bovenaan en uitgelicht. Cover behouden met beschrijvende bestandsnaam en alt-tekst. Sitemap, About en FAQ bijgewerkt. Upload alle uitgepakte bestanden en mappen naar de bestaande GitHub-repository; Cloudflare-instellingen blijven gelijk.
+
+
+## Anti-Therapy-update
+/quizzes/anti-therapy/: 15 unieke scènes, 45 originele A/B/C-antwoorden en drie hoofdprofielen uit de EPUB. Dubbele spreadpagina’s eenmaal verwerkt. Gemengde reflectie en epiloog uitklapbaar bij het resultaat. Eigen voortgangssleutel, hervatten, antwoorden aanpassen, gelijke stand oplossen en resultaat delen. Kaart 07 in lila; Social Media blijft bovenaan en uitgelicht. Originele cover behouden (de cover zegt Test, de publicatietitel Quiz). Sitemap, About en FAQ bijgewerkt. De website positioneert de quiz als satire over commerciële zelfhulpcultuur, niet als therapie.

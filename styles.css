@@ -30,3 +30,5 @@ body{background:var(--paper)}.header{border-bottom:2px solid var(--ink)}.brand{f
 .cards .card-routine{background:#ffb86b;color:var(--ink)}
 
 .cards .card-success{background:#80caff;color:var(--ink)}
+
+.cards .card-therapy{background:#c5a0ff;color:var(--ink)}
