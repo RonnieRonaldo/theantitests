@@ -97,3 +97,7 @@ Social Media is de eerste kaart én de uitgelichte quiz. Maximaal 4 kaarten per 
 
 ## Anti-Friend-update
 15 nieuwe quizvragen gebaseerd op de 15 hoofdstukken van The Great Anti-Friend Book. Nieuwe A/B/C-antwoorden en drie nieuwe profielen: expressief, teruggetrokken en organiserend. Geen originele boekuitslagen: het bronboek is geen quiz. Zelfde quizwerking, eigen opslag, kaart 09 en voorbeeldvraag. Originele cover behouden.
+
+
+## Anti-Couple-update
+15 nieuwe vragen gebaseerd op de 15 boekhoofdstukken, met 45 nieuwe antwoorden en 3 nieuwe profielen. Individuele zelfreflectie: geen gezamenlijke score of compatibiliteitsoordeel. Eigen voortgangsopslag, kaart 10, originele cover en visuele voorbeeldvraag. Eerdere quizzen en integraties behouden.
