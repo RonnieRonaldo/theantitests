@@ -47,15 +47,16 @@ For EVERY future page, include /assets/analytics.css and the deferred /assets/an
 - Maatwerk: 10 korte A/B/C-vragen, 3 profielen, eigen pagina/titel in bestaande stijl, 1 gebundelde correctieronde, 90 dagen online. US$200. Extra werk apart afspreken.
 - Dit is het aanbod voor toekomstige opdrachten; er is geen betalingssysteem, host-dashboard of automatisch aangemaakte klantquiz toegevoegd.
 
-### NOG INVULLEN: openbaar contact-e-mailadres
-Open `assets/contact-config.js`. Vul je openbare adres in tussen de lege aanhalingstekens. Commit het bestand naar GitHub. Bijvoorbeeld de instelling `window.ANTI_TESTS_CONTACT_EMAIL = "";` moet jouw echte openbare adres bevatten.
-Daarna toont de contactpagina het adres en opent de knop een vooraf ingevulde e-mail. De bezoeker verstuurt die zelf vanuit de mail-app. Zonder adres is alleen concept kopiëren beschikbaar en staat duidelijk dat niets wordt verzonden. Publiceer het aanbod bij voorkeur pas met dit adres ingevuld.
+### Contactformulier: Web3Forms
+Het formulier staat op `/contact/`. De gedeelde formuliersleutel is ingevuld. Een eigen Worker of openbaar e-mailadres is niet nodig. JavaScript toont succes uitsluitend bij een succesvolle HTTP-reactie én `success: true` van Web3Forms. Bij fouten blijft de invoer staan. Zonder JavaScript gebruikt het formulier gewone POST naar Web3Forms.
+About, FAQ en Contact zijn aparte pagina’s. De homepage verwijst ernaar; maatwerkaanvragen gebruiken `/contact/?topic=custom`.
+Na publicatie: stuur zelf één testbericht, controleer de melding én ontvangst (ook spam). Die echte ontvangst is niet lokaal getest. Als de sleutel een domeinbeperking heeft, controleer de toegestane domeinen in Web3Forms. Verander geen DNS of Cloudflare-instellingen.
 
 ### Upload naar GitHub (Mac)
 1. Pak de ZIP uit door erop te dubbelklikken.
 2. Open op GitHub `RonnieRonaldo/theantitests` op branch `main`.
 3. Kies Add file → Upload files.
-4. Open de uitgepakte map in Finder. Sleep ALLE inhoud vanuit Finder naar het uploadvlak: ook assets, quizzes, privacy en custom-quizzes. Upload niet de ZIP of de buitenste map.
+4. Open de uitgepakte map in Finder. Sleep ALLE inhoud vanuit Finder naar het uploadvlak: ook assets, quizzes, privacy, custom-quizzes, about, faq en contact. Upload niet de ZIP of de buitenste map.
 5. `index.html` en `styles.css` moeten direct op repositoryniveau staan.
 6. Commit changes. Cloudflare Pages publiceert automatisch.
 7. Controleer homepage, beide quizzen en `/custom-quizzes/`. Accepteer optionele analytics alleen als je dat wilt.

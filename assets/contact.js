@@ -2,34 +2,51 @@
   'use strict';
   const form = document.getElementById('enquiry-form');
   if (!form) return;
-  const email = String(window.ANTI_TESTS_CONTACT_EMAIL || '').trim();
-  const configured = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-  const status = document.getElementById('contact-status');
+  const topic = document.getElementById('enquiry-type');
+  const button = document.getElementById('enquiry-submit');
   const feedback = document.getElementById('enquiry-feedback');
-  if (configured) {
-    status.textContent = 'Email Simon at ';
-    const link = document.createElement('a');
-    link.href = 'mailto:' + email;
-    link.textContent = email;
-    status.append(link, '. Or prepare a message below and open it in your email app. You review and send it there.');
-    document.getElementById('enquiry-submit').textContent = 'Open my email app ↗';
+  const labels = { custom: 'Custom quiz — US$200', idea: 'Suggest a quiz', question: 'Question or technical problem' };
+  const requested = new URLSearchParams(window.location.search).get('topic');
+  if (Object.hasOwn(labels, requested)) topic.value = requested;
+  function hints() {
+    document.getElementById('custom-hint').hidden = topic.value !== 'custom';
+    document.getElementById('problem-hint').hidden = topic.value !== 'question';
   }
-  form.addEventListener('submit', async (event) => {
+  topic.addEventListener('change', hints);
+  hints();
+  let sending = false;
+  form.addEventListener('submit', async event => {
     event.preventDefault();
-    const topic = document.getElementById('enquiry-type').value;
-    const message = document.getElementById('enquiry-message').value.trim();
-    if (!message) { feedback.textContent = 'Please write a message first.'; return; }
-    if (configured) {
-      window.location.href = 'mailto:' + email + '?subject=' + encodeURIComponent(topic) + '&body=' + encodeURIComponent(message);
-      feedback.textContent = 'Your email app should open with a draft. Nothing has been sent yet. If it does not open, copy your message and use the email address above.';
-    } else {
-      try {
-        await navigator.clipboard.writeText(topic + '\n\n' + message);
-        feedback.textContent = 'Draft copied. It has not been sent. Contact details will be available here once updated.';
-      } catch (_) {
-        document.getElementById('enquiry-message').select();
-        feedback.textContent = 'Please copy the selected message manually. Nothing has been sent.';
-      }
+    if (sending || !form.reportValidity()) return;
+    if (form.elements.botcheck.checked) return;
+    sending = true;
+    button.disabled = true;
+    button.textContent = 'Sending…';
+    form.setAttribute('aria-busy', 'true');
+    feedback.textContent = 'Sending your message. One moment of optimism.';
+    const data = Object.fromEntries(new FormData(form));
+    data.topic = labels[topic.value] || labels.question;
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 20000);
+    try {
+      const response = await fetch(form.action, {
+        method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify(data), signal: controller.signal
+      });
+      const result = await response.json();
+      if (!response.ok || result.success !== true) throw new Error('Submission not confirmed');
+      feedback.textContent = 'Message sent. Thank you — your observations have reached the complaints department. That is also me.';
+      form.reset();
+      hints();
+    } catch (error) {
+      feedback.textContent = 'We could not confirm that your message was sent. Your text is still here. Check your connection and try again in a moment. If the connection dropped after sending, it may already have arrived.';
+    } finally {
+      clearTimeout(timeout);
+      sending = false;
+      button.disabled = false;
+      button.textContent = 'Send my message ↗';
+      form.removeAttribute('aria-busy');
+      feedback.focus();
     }
   });
 })();
