@@ -81,3 +81,7 @@ Social Media is de eerste kaart én de uitgelichte quiz. Maximaal 4 kaarten per 
 
 ## Anti-Routine-update
 /quizzes/anti-routine/: 15 unieke scènes uit EPUB (dubbele spreadpagina’s eenmalig verwerkt), 45 originele keuzes en drie oorspronkelijke hoofdprofielen. Gemengde reflectie en epiloog uitklapbaar bij uitslag. Eigen voortgangssleutel. Kaart 05 in oranje; Social Media blijft eerste en uitgelicht. Vier kaarten maximaal per rij, ook bij vijf of meer quizzen. De afgesproken natuurlijke Social Media-zoekwoordalinea is toegevoegd.
+
+
+## Anti-Success-update
+/quizzes/anti-success/: 15 unieke scènes, 45 originele A/B/C-antwoorden en drie hoofdprofielen uit de EPUB. Dubbele spreadpagina’s eenmaal verwerkt. Gemengde reflectie en epiloog uitklapbaar bij het resultaat. Eigen voortgangssleutel, hervatten, antwoorden aanpassen, gelijke stand oplossen en resultaat delen. Kaart 06 in blauw; Social Media blijft bovenaan en uitgelicht. Cover behouden met beschrijvende bestandsnaam en alt-tekst. Sitemap, About en FAQ bijgewerkt. Upload alle uitgepakte bestanden en mappen naar de bestaande GitHub-repository; Cloudflare-instellingen blijven gelijk.
