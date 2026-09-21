@@ -77,3 +77,7 @@ Cover: assets/not-a-christmas-quiz-adults-cover.jpg, ongewijzigd en ongecropt. H
 ## Social Media-quiz en compacte kaarten
 Nieuwe quiz: /quizzes/anti-social-media/. 15 scènes en 45 A/B/C-keuzes uit de aangeleverde Pages-afbeeldingen, met de drie oorspronkelijke hoofdprofielen. De gemengde reflectie (The Digital Human) en epiloog staan uitklapbaar bij het resultaat; bij gelijke aantallen kiest de bezoeker tussen de gedeelde hoofdprofielen, net als bij de andere tests. OCR-fouten zijn gecorrigeerd en gedrukte navigatie is verwijderd. Het is satire, geen verslavingstest.
 Social Media is de eerste kaart én de uitgelichte quiz. Maximaal 4 kaarten per rij, 2 op tablet en 1 op mobiel. Nieuwe kaarten moeten een eigen onderwerpklasse krijgen; kleuren worden niet meer door positie bepaald. Covers ongecropt. Andere quizzen, formulier, Analytics en privacyinstellingen blijven behouden.
+
+
+## Anti-Routine-update
+/quizzes/anti-routine/: 15 unieke scènes uit EPUB (dubbele spreadpagina’s eenmalig verwerkt), 45 originele keuzes en drie oorspronkelijke hoofdprofielen. Gemengde reflectie en epiloog uitklapbaar bij uitslag. Eigen voortgangssleutel. Kaart 05 in oranje; Social Media blijft eerste en uitgelicht. Vier kaarten maximaal per rij, ook bij vijf of meer quizzen. De afgesproken natuurlijke Social Media-zoekwoordalinea is toegevoegd.
