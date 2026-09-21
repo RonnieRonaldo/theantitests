@@ -89,3 +89,7 @@ Social Media is de eerste kaart én de uitgelichte quiz. Maximaal 4 kaarten per 
 
 ## Anti-Therapy-update
 /quizzes/anti-therapy/: 15 unieke scènes, 45 originele A/B/C-antwoorden en drie hoofdprofielen uit de EPUB. Dubbele spreadpagina’s eenmaal verwerkt. Gemengde reflectie en epiloog uitklapbaar bij het resultaat. Eigen voortgangssleutel, hervatten, antwoorden aanpassen, gelijke stand oplossen en resultaat delen. Kaart 07 in lila; Social Media blijft bovenaan en uitgelicht. Originele cover behouden (de cover zegt Test, de publicatietitel Quiz). Sitemap, About en FAQ bijgewerkt. De website positioneert de quiz als satire over commerciële zelfhulpcultuur, niet als therapie.
+
+
+## Anti-Motivation-update
+15 scènes en 45 originele antwoorden uit EPUB; drie hoofdprofielen, gemengde reflectie en epiloog. Kaart 08 in groen, Social Media blijft eerste. Visuele voorbeeldvragen bij Motivation en Therapy: korte previews, tellen niet mee voor de score.

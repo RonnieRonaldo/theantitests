@@ -32,3 +32,7 @@ body{background:var(--paper)}.header{border-bottom:2px solid var(--ink)}.brand{f
 .cards .card-success{background:#80caff;color:var(--ink)}
 
 .cards .card-therapy{background:#c5a0ff;color:var(--ink)}
+
+.cards .card-motivation{background:#b8ee77;color:var(--ink)}
+
+.quiz-preview{max-width:620px;margin:28px 0}.quiz-preview img{display:block;width:100%;height:auto;border:2px solid var(--ink);box-shadow:5px 5px 0 var(--ink)}.quiz-preview figcaption{margin-top:12px;font-size:13px;line-height:1.5}
