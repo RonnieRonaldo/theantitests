@@ -93,3 +93,7 @@ Social Media is de eerste kaart én de uitgelichte quiz. Maximaal 4 kaarten per 
 
 ## Anti-Motivation-update
 15 scènes en 45 originele antwoorden uit EPUB; drie hoofdprofielen, gemengde reflectie en epiloog. Kaart 08 in groen, Social Media blijft eerste. Visuele voorbeeldvragen bij Motivation en Therapy: korte previews, tellen niet mee voor de score.
+
+
+## Anti-Friend-update
+15 nieuwe quizvragen gebaseerd op de 15 hoofdstukken van The Great Anti-Friend Book. Nieuwe A/B/C-antwoorden en drie nieuwe profielen: expressief, teruggetrokken en organiserend. Geen originele boekuitslagen: het bronboek is geen quiz. Zelfde quizwerking, eigen opslag, kaart 09 en voorbeeldvraag. Originele cover behouden.
