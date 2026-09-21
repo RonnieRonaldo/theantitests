@@ -38,3 +38,29 @@ Before testing in GA4 Realtime, accept analytics on the live website and ensure 
 In GA4 Admin → Data streams → this web stream → Enhanced measurement (gear) → Page views → Advanced settings, turn OFF “Page changes based on browser history events”. Keep “Page loads” on. The quizzes use browser history to support Back; disabling history-based pageviews avoids counting each question as a separate webpage.
 
 For EVERY future page, include /assets/analytics.css and the deferred /assets/analytics.js script exactly once, plus the footer Analytics settings button and privacy link. Do not insert an additional inline gtag snippet. Use the same fully linked quiz-card structure for published quizzes, with no nested links, and descriptive cover alt text that naturally describes the subject and artwork. Keep Coming soon cards unlinked.
+
+
+## Update: About, FAQ, contact en maatwerkquizzen (US$200)
+- De complete site is inbegrepen, niet alleen gewijzigde bestanden.
+- Nieuwe pagina: `/custom-quizzes/`. About, FAQ en contact staan op de homepage.
+- Bestaande quizinhoud, antwoorden, profielen, voortgang, covers en Analytics zijn behouden.
+- Maatwerk: 10 korte A/B/C-vragen, 3 profielen, eigen pagina/titel in bestaande stijl, 1 gebundelde correctieronde, 90 dagen online. US$200. Extra werk apart afspreken.
+- Dit is het aanbod voor toekomstige opdrachten; er is geen betalingssysteem, host-dashboard of automatisch aangemaakte klantquiz toegevoegd.
+
+### NOG INVULLEN: openbaar contact-e-mailadres
+Open `assets/contact-config.js`. Vul je openbare adres in tussen de lege aanhalingstekens. Commit het bestand naar GitHub. Bijvoorbeeld de instelling `window.ANTI_TESTS_CONTACT_EMAIL = "";` moet jouw echte openbare adres bevatten.
+Daarna toont de contactpagina het adres en opent de knop een vooraf ingevulde e-mail. De bezoeker verstuurt die zelf vanuit de mail-app. Zonder adres is alleen concept kopiëren beschikbaar en staat duidelijk dat niets wordt verzonden. Publiceer het aanbod bij voorkeur pas met dit adres ingevuld.
+
+### Upload naar GitHub (Mac)
+1. Pak de ZIP uit door erop te dubbelklikken.
+2. Open op GitHub `RonnieRonaldo/theantitests` op branch `main`.
+3. Kies Add file → Upload files.
+4. Open de uitgepakte map in Finder. Sleep ALLE inhoud vanuit Finder naar het uploadvlak: ook assets, quizzes, privacy en custom-quizzes. Upload niet de ZIP of de buitenste map.
+5. `index.html` en `styles.css` moeten direct op repositoryniveau staan.
+6. Commit changes. Cloudflare Pages publiceert automatisch.
+7. Controleer homepage, beide quizzen en `/custom-quizzes/`. Accepteer optionele analytics alleen als je dat wilt.
+8. Search Console → Sitemaps → `sitemap.xml` indienen.
+
+### Toekomstige klantpagina's
+Maak elke opdracht na goedkeuring als eigen pagina met de gedeelde A/B/C-quizstructuur. Geen accounts, organisatorrapportage of gedeeld live spel. Plaats geen individuele antwoorden/profielen in Analytics-events. Voeg analytics-consent en privacy-links toe zoals op de bestaande pagina's.
+Gebruik `noindex` voor klantpagina's; neem ze niet op in sitemap of openbare quizoverzichten. De link is niet afgeschermd: iedereen met de link kan de pagina openen. Regel geen privacygevoelige inhoud via zo'n pagina. Noteer de afgesproken start- en einddatum en haal de pagina na 90 dagen offline; dit pakket automatiseert die verwijdering niet. Verlenging en meerwerk vooraf afspreken.
