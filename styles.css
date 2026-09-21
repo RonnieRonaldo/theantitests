@@ -12,3 +12,5 @@ body{background:var(--paper)}.header{border-bottom:2px solid var(--ink)}.brand{f
 
 /* Real book artwork, always shown uncropped. */
 .feature-art.book-feature{height:480px;padding:20px;background:var(--pink)}.book-feature img{display:block;max-width:100%;height:100%;width:auto;object-fit:contain;box-shadow:6px 6px 0 #171717}.card-cover{height:235px;display:flex;justify-content:center;align-items:center;margin:0 0 26px}.card-cover img{display:block;max-width:100%;width:auto;height:100%;object-fit:contain;box-shadow:4px 5px 0 #171717}.quiz-card .card-top{margin-bottom:22px}@media(max-width:650px){.feature-art.book-feature{height:425px}.card-cover{height:260px}}
+
+.quiz-card-live{cursor:pointer;transition:transform .15s,box-shadow .15s}.quiz-card-live:hover{text-decoration:none;transform:translate(-2px,-2px);box-shadow:8px 8px 0 var(--ink)}.quiz-card-live:focus-visible{outline:4px solid #171717;outline-offset:7px}.quiz-card-live:hover .card-link{text-decoration-thickness:2px}.book-feature:hover{outline:3px solid var(--ink);outline-offset:4px}@media(prefers-reduced-motion:reduce){.quiz-card-live{transition:none}}
