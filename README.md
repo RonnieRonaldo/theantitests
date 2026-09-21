@@ -65,3 +65,10 @@ Na publicatie: stuur zelf één testbericht, controleer de melding én ontvangst
 ### Toekomstige klantpagina's
 Maak elke opdracht na goedkeuring als eigen pagina met de gedeelde A/B/C-quizstructuur. Geen accounts, organisatorrapportage of gedeeld live spel. Plaats geen individuele antwoorden/profielen in Analytics-events. Voeg analytics-consent en privacy-links toe zoals op de bestaande pagina's.
 Gebruik `noindex` voor klantpagina's; neem ze niet op in sitemap of openbare quizoverzichten. De link is niet afgeschermd: iedereen met de link kan de pagina openen. Regel geen privacygevoelige inhoud via zo'n pagina. Noteer de afgesproken start- en einddatum en haal de pagina na 90 dagen offline; dit pakket automatiseert die verwijdering niet. Verlenging en meerwerk vooraf afspreken.
+
+
+## Kerstquiz toegevoegd
+Pad: /quizzes/not-a-christmas-quiz/
+14 hoofdstukken, 28 originele A/B/C-vragen. De volledige vraag- en antwoordset is overgenomen; de verwijzing naar het boek in vraag 27 is aangepast naar de online quiz. Introductie en drie speelse resultaatprofielen zijn geschreven voor deze webversie. De originele beschrijving zonder scores/resultaten hoort bij het boek. Narratieve toelichting staat bij de leesschermen; zinnen die een antwoord vooraf prijzen zijn weggelaten. Een afgebroken slotzin van hoofdstuk 5 is afgerond.
+Profielpunten: meestal A/B/C op gelijknamig profiel; eerste kantoorfeestvraag heeft mapping C/B/A (exitplan / onderhandelen / automatisch accepteren). Resultaten zijn humoristische duidingen, geen gevalideerde persoonlijkheidsmeting. Opslag is apart van de andere quizzen.
+Cover: assets/not-a-christmas-quiz-adults-cover.jpg, ongewijzigd en ongecropt. Homepagekaart volledig klikbaar. About, FAQ, privacytekst en sitemap bijgewerkt. Bestaande contactkoppeling, Analytics en andere quizzen behouden.
