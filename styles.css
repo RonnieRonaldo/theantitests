@@ -40,3 +40,5 @@ body{background:var(--paper)}.header{border-bottom:2px solid var(--ink)}.brand{f
 .cards .card-friend{background:#ff9d8e;color:var(--ink)}
 
 .cards .card-couple{background:#83dfb2;color:var(--ink)}
+
+.cards .card-work{background:#ffd36b;color:var(--ink)}

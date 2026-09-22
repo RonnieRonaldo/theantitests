@@ -101,3 +101,7 @@ Social Media is de eerste kaart én de uitgelichte quiz. Maximaal 4 kaarten per 
 
 ## Anti-Couple-update
 15 nieuwe vragen gebaseerd op de 15 boekhoofdstukken, met 45 nieuwe antwoorden en 3 nieuwe profielen. Individuele zelfreflectie: geen gezamenlijke score of compatibiliteitsoordeel. Eigen voortgangsopslag, kaart 10, originele cover en visuele voorbeeldvraag. Eerdere quizzen en integraties behouden.
+
+
+## Anti-Work-update
+15 nieuwe vragen gebaseerd op alle boekhoofdstukken, 45 antwoorden en 3 nieuwe werkprofielen. Kaart 11, originele cover, voorbeeldvraag en eigen opslag. Alle eerdere quizzen en integraties behouden. Geen beroepskeuzetest of klinische burnoutmeting.
