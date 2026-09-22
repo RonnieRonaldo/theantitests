@@ -117,3 +117,7 @@ Added /quizzes/anti-love/: eight newly adapted A/B/C scenes based on the eight c
 
 ## Anti-Family update
 Added /quizzes/anti-family/: fifteen new A/B/C scenes adapted from the fifteen family portraits, three satirical profiles, tie handling, saved progress and sharing. Cover and unscored sample included. All thirteen previous quizzes including Anti-Love retained.
+
+
+## General Anti-Perfectionism update
+Added /quizzes/anti-perfectionism/ separately from Parent Edition. All 15 original scenes and 45 response branches extracted (first scene is inside EPUB chapter-2). Adapted non-diagnostic summaries retain the three source profile names. Unscored illustrative sample, cover, homepage, FAQ, About and sitemap included; all fourteen earlier quizzes preserved.
