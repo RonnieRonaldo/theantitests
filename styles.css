@@ -44,3 +44,5 @@ body{background:var(--paper)}.header{border-bottom:2px solid var(--ink)}.brand{f
 .cards .card-work{background:#ffd36b;color:var(--ink)}
 
 .cards .card-menopause{background:#a6d9ff;color:var(--ink)}
+
+.cards .card-love{background:#ff90b7;color:#171717}

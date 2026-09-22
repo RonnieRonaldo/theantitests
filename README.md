@@ -109,3 +109,7 @@ Social Media is de eerste kaart én de uitgelichte quiz. Maximaal 4 kaarten per 
 
 ## Anti-Menopause-update
 8 nieuwe vragen gebaseerd op de 8 inhoudelijke hoofdstukken. 24 antwoorden, 3 ondersteuningsprofielen, eigen opslag en dynamische voortgang op basis van 8 vragen. Gericht op de reacties van de partner, geen symptoomscore of medische claims uit het boek overgenomen. NHS-informatielink toegevoegd. Kaart 12, originele cover en voorbeeldvraag.
+
+
+## Anti-Love update
+Added /quizzes/anti-love/: eight newly adapted A/B/C scenes based on the eight chapters of The Great Anti-Love Book; three satirical profiles, saved progress, tie handling and sharing. Distinct from Anti-Couple: dating, longing, projection and romantic overthinking. Cover and unscored sample question included. All twelve existing quizzes and integrations preserved.
