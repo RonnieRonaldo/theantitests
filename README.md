@@ -105,3 +105,7 @@ Social Media is de eerste kaart én de uitgelichte quiz. Maximaal 4 kaarten per 
 
 ## Anti-Work-update
 15 nieuwe vragen gebaseerd op alle boekhoofdstukken, 45 antwoorden en 3 nieuwe werkprofielen. Kaart 11, originele cover, voorbeeldvraag en eigen opslag. Alle eerdere quizzen en integraties behouden. Geen beroepskeuzetest of klinische burnoutmeting.
+
+
+## Anti-Menopause-update
+8 nieuwe vragen gebaseerd op de 8 inhoudelijke hoofdstukken. 24 antwoorden, 3 ondersteuningsprofielen, eigen opslag en dynamische voortgang op basis van 8 vragen. Gericht op de reacties van de partner, geen symptoomscore of medische claims uit het boek overgenomen. NHS-informatielink toegevoegd. Kaart 12, originele cover en voorbeeldvraag.
