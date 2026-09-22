@@ -113,3 +113,7 @@ Social Media is de eerste kaart én de uitgelichte quiz. Maximaal 4 kaarten per 
 
 ## Anti-Love update
 Added /quizzes/anti-love/: eight newly adapted A/B/C scenes based on the eight chapters of The Great Anti-Love Book; three satirical profiles, saved progress, tie handling and sharing. Distinct from Anti-Couple: dating, longing, projection and romantic overthinking. Cover and unscored sample question included. All twelve existing quizzes and integrations preserved.
+
+
+## Anti-Family update
+Added /quizzes/anti-family/: fifteen new A/B/C scenes adapted from the fifteen family portraits, three satirical profiles, tie handling, saved progress and sharing. Cover and unscored sample included. All thirteen previous quizzes including Anti-Love retained.
